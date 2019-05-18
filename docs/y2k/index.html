@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Y2K | TCSH</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/faq/">FAQ</a></li>
+      
+      <li><a href="https://mailman.astron.com/mailman/listinfo/tcsh">Mailing list</a></li>
+      
+      <li><a href="https://github.com/tcsh-org/tcsh">Source</a></li>
+      
+      <li><a href="/y2k/">Y2K</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Y2K</span></h1>
+
+
+</div>
+
+<main>
+<p>The tcsh code has been tested on a Solaris 2.6 machine and a NetBSD 1.3H
+machine running before, and after the year 2000. The code has been also
+visually inspected for Y2K compliance problems. Tcsh does not use time
+functions for anything but display purposes, so its operation should not
+be affected assuming that the time related functions of the C library
+work properly.</p>
+
+<p><strong>Note:</strong> Since the last audit, tcsh-6.08.00 has been found to have a
+minor problem with <code>%y</code> in the prompt (it will print <code>10</code> instead of
+<code>00</code> in y2k). This has been fixed in tcsh-6.09.00.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

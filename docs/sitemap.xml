@@ -3,18 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.tcsh.org/</loc>
+    <lastmod>2019-05-19T00:58:21+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.tcsh.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.tcsh.org/</loc>
-    <priority>0</priority>
+    <loc>http://www.tcsh.org/faq/</loc>
   </url>
   
   <url>
     <loc>http://www.tcsh.org/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.tcsh.org/y2k/</loc>
   </url>
   
 </urlset>
