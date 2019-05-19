@@ -9,14 +9,25 @@ subdirectory of the master branch][docs].  Content is managed using the
 
 The general workflow is as follows:
 
-* Clone the repository.
-* Start a local web server: `hugo server -D`
-* Edit files and review them in a browser.
-* Once happy with the changes regenerate the site by running
-  `hugo` (without arguments) at the top level. This updates
-  the files in the [docs](docs) directory.
-* Review source changes: `git diff`
-* Review new and removed files: `git status`
+* Use `git clone` to get a copy of the repository.
+* Use `hugo server -D` to start a local web server.
+* Use `vi contents/post/announce-6.21.00.md` to edit a file.
+
+Your browser will show the updated content as soon as you save the file.
+Keep editing until you are happy with the results.
+
+Then regenerate the site:
+
+```
+hugo
+```
+
+This updates the files in the [docs](docs) directory.
+
+Commit your changes:
+
+* Use `git diff` to review source changes.
+* Use `git status` to review new and removed files.
 * Use `git add` to select files to be committed.
 * Run `git commit` to commit the changes.
 * Run `git push` to push your changes to GitHub.
