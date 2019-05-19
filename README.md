@@ -137,8 +137,8 @@ image][jekyll-docker] but even that seemed much heavier a setup than I'd
 like to impose on anyone working on the content.
 
 Completely foregoing local review of changes in favor of simply having
-GitHub Pages regenerate the site -- warts and all -- just doesn't feel
-right, does it?
+GitHub Pages regenerate the site &mdash; warts and all &mdash; just
+doesn't feel right, does it?
 
 
 [docs]: https://github.com/tcsh-org/www/tree/master/docs
