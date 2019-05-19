@@ -116,12 +116,36 @@ on the browser.
 Typing just `tcsh.org` or `www.tcsh.org` in the browser address bar
 works. You will be redirected to https://www.tcsh.org/ from both.
 
-[Custom domain redirects][gh-pages-redirect] only work over HTTP.
+Note that [redirects for custom domains][gh-pages-redirect] only work
+over HTTP.
+
+
+## DNS configuration
+
+The DNS data has a [www CNAME][gh-pages-dns-cname] for `www.tcsh.org`
+and [A records][gh-pages-dns-a] for `tcsh.org`.
+
+
+## Why not Jekyll?
+
+Managing Ruby dependencies is too difficult. Having everything dumped
+inside the global Ruby installation directories is just asking for
+trouble.
+
+A reasonable approach might be using [the official Jekyll Docker
+image][jekyll-docker] but even that seemed much heavier a setup than I'd
+like to impose on anyone working on the content.
+
+Completely foregoing local review of changes in favor of simply having
+GitHub Pages regenerate the site -- warts and all -- just doesn't feel
+right, does it?
 
 
 [docs]: https://github.com/tcsh-org/www/tree/master/docs
 [gh-pages]: https://pages.github.com/
 [gh-pages-cname]: https://help.github.com/en/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site
+[gh-pages-dns-a]: https://help.github.com/en/articles/troubleshooting-custom-domains#dns-configuration-errors
+[gh-pages-dns-cname]: https://help.github.com/en/articles/setting-up-a-www-subdomain
 [gh-pages-https]: https://help.github.com/en/articles/securing-your-github-pages-site-with-https
 [gh-pages-pub-source]: https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch
 [gh-pages-redirect]: https://help.github.com/en/articles/custom-domain-redirects-for-github-pages-sites
@@ -129,5 +153,6 @@ works. You will be redirected to https://www.tcsh.org/ from both.
 [hugo-basic]: https://gohugo.io/getting-started/usage/
 [hugo-cli]: https://gohugo.io/commands/
 [hugo-install]: https://gohugo.io/getting-started/installing/
+[jekyll-docker]: https://hub.docker.com/r/jekyll/jekyll/
 [xmin]: https://xmin.yihui.name/
 [xmin-about]: https://xmin.yihui.name/about/
