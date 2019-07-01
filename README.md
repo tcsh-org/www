@@ -11,7 +11,7 @@ The general workflow is as follows:
 
 * Use `git clone` to get a copy of the repository.
 * Use `hugo server -D` to start a local web server.
-* Use `vi contents/post/announce-6.21.00.md` to edit a file.
+* Use `vi content/post/announce-6.21.00.md` to edit a file.
 
 Your browser will show the updated content as soon as you save the file.
 Keep editing until you are happy with the results.
