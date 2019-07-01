@@ -10,6 +10,7 @@ subdirectory of the master branch][docs].  Content is managed using the
 The general workflow is as follows:
 
 * Use `git clone` to get a copy of the repository.
+* Use `git submodule init && git submodule update` to get the theme.
 * Use `hugo server -D` to start a local web server.
 * Use `vi content/post/announce-6.21.00.md` to edit a file.
 
