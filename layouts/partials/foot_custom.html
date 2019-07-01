@@ -1,0 +1,4 @@
+<hr />
+{{ if not .Lastmod.IsZero }}
+<p>Page content last updated on {{ .Lastmod.Format "2006-01-02" }}</p>
+{{ end }}

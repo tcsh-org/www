@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "TCSH"
 theme = "xmin"
 publishDir = "docs"
+enableGitInfo = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
     name = "Home"
