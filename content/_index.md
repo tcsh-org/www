@@ -14,10 +14,18 @@ The most recent tcsh release is **6.21.00** and can be downloaded from:
 * ftp://ftp.astron.com/pub/tcsh/  
 * http://ftp.funet.fi/pub/mirrors/ftp.astron.com/pub/tcsh/
 
-## Links
+
+## Developer resources
+
+* [Mailing list](https://mailman.astron.com/mailman/listinfo/tcsh)
+* [Source code](https://github.com/tcsh-org/tcsh)
+
+
+## User guides
 
 * [Archive for "Using csh & tcsh"](http://www.kitebird.com/csh-tcsh-book/)
 * [Wikibook on "C Shell Scripting"](http://en.wikibooks.org/wiki/C_Shell_Scripting)
+
 
 ## Archived
 

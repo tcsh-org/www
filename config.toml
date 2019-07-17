@@ -10,11 +10,3 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     name = "Home"
     url = "/"
     weight = 1
-
-[[menu.main]]
-    name = "Mailing list"
-    url = "https://mailman.astron.com/mailman/listinfo/tcsh"
-
-[[menu.main]]
-    name = "Source"
-    url = "https://github.com/tcsh-org/tcsh"
