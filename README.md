@@ -17,6 +17,14 @@ The general workflow is as follows:
 Your browser will show the updated content as soon as you save the file.
 Keep editing until you are happy with the results.
 
+Commit your changes:
+
+* Use `git diff` to review source changes.
+* Use `git status` to review new and removed files.
+* Use `git add` to select files to be committed.
+* Run `git commit` to commit the changes.
+* Run `git push` to push your changes to GitHub.
+
 Then regenerate the site:
 
 ```
@@ -25,13 +33,9 @@ hugo
 
 This updates the files in the [docs](docs) directory.
 
-Commit your changes:
-
-* Use `git diff` to review source changes.
-* Use `git status` to review new and removed files.
-* Use `git add` to select files to be committed.
-* Run `git commit` to commit the changes.
-* Run `git push` to push your changes to GitHub.
+Commit the regenerated files. The source files must be committed before
+regenerating the site, because the last-modified timestamp for a source
+file is derived from its commit timestamp.
 
 Finally create a pull request to get your changes published.
 
