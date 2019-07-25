@@ -231,7 +231,7 @@ does not appear to be as flexible, though).
 
 [Curtains up: introducing the Z shell][zsh-intro] has a pretty good
 rundown on zsh. Aside from the arguments about csh being evil, tcsh
-appears to compare well with zsh [zsh]. Zsh is sh and ksh compatible,
+appears to compare well with [zsh]. Zsh is sh and ksh compatible,
 with many of the interactive features of tcsh.
 
 ### Why does FreeBSD's tcsh do history browsing differently than I expect?
