@@ -9,7 +9,7 @@ _C shell with file name completion and command line editing_
 
 ## Most recent release
 
-The most recent tcsh release is **6.22.00** and can be downloaded from:
+The most recent tcsh release is **6.22.01** and can be downloaded from:
 
 * ftp://ftp.astron.com/pub/tcsh/  
 * http://ftp.funet.fi/pub/mirrors/ftp.astron.com/pub/tcsh/
