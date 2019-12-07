@@ -19,17 +19,20 @@ Keep editing until you are happy with the results.
 
 Commit your changes:
 
-* Use `git diff` to review source changes.
-* Use `git status` to review new, changed, and removed files.
-* Use `git add` to select files to be committed.
-* Run `git commit` to commit the changes.
+* Commit source changes:
+  * Use `git diff` to review source changes.
+  * Use `git status` to review new, changed, and removed files.
+  * Use `git add` to select files to be committed.
+  * Run `git commit` to commit the changes.
 * Run `hugo` to regenerate the files in the [docs](docs) directory.
-* Use `git diff` to review changes from regenerating the site.
-* Use `git status` to review new, changed, and removed files.
-* Run `git add` to select the regenerated files to be committed.
-* Run `git commit` to commit the regenerated files.
-* Run `git rebase -i HEAD~2` and use `fixup` to merge the commits.
-* Run `git push` to push your changes to GitHub.
+* Commit regenerated files:
+  * Use `git diff` to review changes from regenerating the site.
+  * Use `git status` to review new, changed, and removed files.
+  * Run `git add` to select the regenerated files to be committed.
+  * Run `git commit` to commit the regenerated files.
+* Merge the two commits and push to GitHub:
+  * Run `git rebase -i HEAD~2` and use `fixup` to merge the commits.
+  * Run `git push` to push your changes to GitHub.
 
 The source files must be committed before regenerating the site, because
 the last-modified timestamp for a source file is derived from its commit
