@@ -23,19 +23,15 @@ Commit your changes:
 * Use `git status` to review new and removed files.
 * Use `git add` to select files to be committed.
 * Run `git commit` to commit the changes.
+* Run `hugo` to regenerate the files in the [docs](docs) directory.
+* Run `git add` to select the regenerated files to be committed.
+* Run `git commit` to commit the regenerated files.
+* Run `git rebase -i HEAD~2` and use `fixup` to merge the commits.
 * Run `git push` to push your changes to GitHub.
 
-Then regenerate the site:
-
-```
-hugo
-```
-
-This updates the files in the [docs](docs) directory.
-
-Commit the regenerated files. The source files must be committed before
-regenerating the site, because the last-modified timestamp for a source
-file is derived from its commit timestamp.
+The source files must be committed before regenerating the site, because
+the last-modified timestamp for a source file is derived from its commit
+timestamp.
 
 Finally create a pull request to get your changes published.
 
