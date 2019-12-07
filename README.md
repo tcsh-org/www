@@ -28,7 +28,7 @@ Commit your changes:
 * Commit regenerated files:
   * Use `git diff` to review changes from regenerating the site.
   * Use `git status` to review new, changed, and removed files.
-  * Run `git add` to select the regenerated files to be committed.
+  * Use `git add` to select the regenerated files to be committed.
   * Run `git commit` to commit the regenerated files.
 * Merge the two commits and push to GitHub:
   * Run `git rebase -i HEAD~2` and use `fixup` to merge the commits.
