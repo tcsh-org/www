@@ -7,11 +7,11 @@ title: "TCSH"
 _C shell with file name completion and command line editing_
 
 
-## Most recent release
+## Download
 
-The most recent tcsh release is **6.22.02** and can be downloaded from:
+Source code for tcsh releases can be downloaded from:
 
-* ftp://ftp.astron.com/pub/tcsh/  
+* http://astron.com/pub/tcsh/
 * http://ftp.funet.fi/pub/mirrors/ftp.astron.com/pub/tcsh/
 
 
