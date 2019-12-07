@@ -11,7 +11,7 @@ _C shell with file name completion and command line editing_
 
 Source code for tcsh releases can be downloaded from:
 
-* http://astron.com/pub/tcsh/
+* https://astron.com/pub/tcsh/
 * http://ftp.funet.fi/pub/mirrors/ftp.astron.com/pub/tcsh/
 
 
