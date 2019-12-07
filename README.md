@@ -20,10 +20,12 @@ Keep editing until you are happy with the results.
 Commit your changes:
 
 * Use `git diff` to review source changes.
-* Use `git status` to review new and removed files.
+* Use `git status` to review new, changed, and removed files.
 * Use `git add` to select files to be committed.
 * Run `git commit` to commit the changes.
 * Run `hugo` to regenerate the files in the [docs](docs) directory.
+* Use `git diff` to review changes from regenerating the site.
+* Use `git status` to review new, changed, and removed files.
 * Run `git add` to select the regenerated files to be committed.
 * Run `git commit` to commit the regenerated files.
 * Run `git rebase -i HEAD~2` and use `fixup` to merge the commits.
