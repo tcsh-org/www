@@ -182,8 +182,8 @@ undefine REMOTEHOST and recompile or fix your DNS.
 
 ### If you need help generating your .cshrc file, check out:
 
-* http://www.imada.sdu.dk/~blackie/dotfile/
-* http://www.dotfiles.com
+* https://github.com/tcsh-org/tcsh/blob/master/dot.tcshrc
+* https://github.com/tcsh-org/tcsh/blob/master/dot.login
 
 ### On POSIX systems the kernel will send hup signals to all the processes in the foreground process group if 'stty hupcl' is set.
 For example
