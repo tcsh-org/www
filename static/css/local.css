@@ -1,6 +1,19 @@
-html {
+html
+{
     overflow-y: scroll;
 }
-footer p {
+
+footer p
+{
     font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+footer p.license span,
+footer p.license img
+{
+    border-width: 0;
+    vertical-align: middle;
 }
