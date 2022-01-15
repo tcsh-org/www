@@ -91,22 +91,6 @@ pkgin install hugo
 Or follow the [detailed installation instructions][hugo-install]
 from the Hugo documentation.
 
------
-
-### Why not Jekyll?
-
-Managing Ruby dependencies is too difficult. Having everything dumped
-inside the global Ruby installation directories is just asking for
-trouble.
-
-A reasonable approach might be using [the official Jekyll Docker
-image][jekyll-docker] but even that seemed much heavier a setup than I'd
-like to impose on anyone working on the content.
-
-Completely foregoing local review of changes in favor of simply having
-GitHub Pages regenerate the site &mdash; warts and all &mdash; just
-doesn't feel right, does it?
-
 
 [docs]: https://github.com/tcsh-org/www/tree/master/docs
 [gh-pages]: https://pages.github.com/
@@ -114,6 +98,5 @@ doesn't feel right, does it?
 [hugo-basic]: https://gohugo.io/getting-started/usage/
 [hugo-cli]: https://gohugo.io/commands/
 [hugo-install]: https://gohugo.io/getting-started/installing/
-[jekyll-docker]: https://hub.docker.com/r/jekyll/jekyll/
 [xmin]: https://xmin.yihui.name/
 [xmin-about]: https://xmin.yihui.name/about/
