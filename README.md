@@ -55,8 +55,8 @@ Finally create a pull request to get your changes published.
 Create a new file from a template and edit it.
 
 ```
-hugo new post/announce-6.21.00
-vi content/post/announce-6.21.00.md
+hugo new post/announce-6.24.00
+vi content/post/announce-6.24.00.md
 ```
 
 ### Removing content
@@ -80,7 +80,7 @@ sudo port install hugo
 
 Debian/Ubuntu:
 ```
-apt-get install hugo
+apt install hugo
 ```
 
 NetBSD/SmartOS/others (pkgsrc):
