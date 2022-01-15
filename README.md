@@ -4,6 +4,7 @@ The tcsh website is served by [GitHub Pages][gh-pages] from the [docs
 subdirectory of the master branch][docs].  Content is managed using the
 [Hugo][hugo] open-source static site generator.
 
+-----
 
 ## Updating the site
 
@@ -68,6 +69,7 @@ The easiest way is to simply regenerate everything.
 rm -rf docs && hugo
 ```
 
+-----
 
 ## Installing Hugo
 
@@ -89,8 +91,9 @@ pkgin install hugo
 Or follow the [detailed installation instructions][hugo-install]
 from the Hugo documentation.
 
+-----
 
-## Why not Jekyll?
+### Why not Jekyll?
 
 Managing Ruby dependencies is too difficult. Having everything dumped
 inside the global Ruby installation directories is just asking for
