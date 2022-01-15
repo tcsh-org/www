@@ -5,11 +5,7 @@
     <link>http://www.tcsh.org/</link>
     <description>Recent content on TCSH</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://www.tcsh.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://www.tcsh.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQ</title>
       <link>http://www.tcsh.org/faq/</link>
@@ -17,7 +13,7 @@
       
       <guid>http://www.tcsh.org/faq/</guid>
       <description>For the people who do not read the manual!
-Why is the meta key broken in tcsh-5.20 and up? On some machines the tty is not set up to pass 8 bit characters by default. Tcsh 5.19 used to try to determine if pass8 should be set by looking at the terminal&#39;s meta key. Unfortunately there is no good way of determining if the terminal can really pass 8 characters or not.</description>
+Why is the meta key broken in tcsh-5.20 and up? On some machines the tty is not set up to pass 8 bit characters by default. Tcsh 5.19 used to try to determine if pass8 should be set by looking at the terminal&amp;rsquo;s meta key. Unfortunately there is no good way of determining if the terminal can really pass 8 characters or not.</description>
     </item>
     
     <item>

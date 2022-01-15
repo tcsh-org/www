@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://www.tcsh.org/faq/</loc>
     <lastmod>2019-12-31T00:56:56+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.tcsh.org/</loc>
-    <lastmod>2019-12-07T11:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-15T09:43:57+02:00</lastmod>
+  </url><url>
     <loc>http://www.tcsh.org/y2k/</loc>
     <lastmod>2019-05-19T02:23:26+03:00</lastmod>
   </url>
-  
 </urlset>

@@ -24,6 +24,7 @@ Source code for tcsh releases can be downloaded from:
 ## User guides
 
 * [Archive for "Using csh & tcsh"](http://www.kitebird.com/csh-tcsh-book/)
+* [Frequently Asked Questions](faq/)
 * [Wikibook on "C Shell Scripting"](http://en.wikibooks.org/wiki/C_Shell_Scripting)
 
 
