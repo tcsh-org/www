@@ -16,6 +16,8 @@
       
       <li><a href="/">Home</a></li>
       
+      <li><a href="/debian/">Debian</a></li>
+      
       <li><a href="/faq/">FAQ</a></li>
       
       <li><a href="/y2k/">Y2K</a></li>
@@ -43,7 +45,7 @@ wrongly set <code>pass8</code>.</p>
 <p>If you did like the previous behavior you can add in <code>/etc/csh.login</code>,
 or in <code>.login</code>:</p>
 <pre tabindex="0"><code>    if ( $?tcsh &amp;&amp; $?prompt ) then
-        if ( &quot;`echotc meta`&quot; == &quot;yes&quot; ) then
+        if ( &#34;`echotc meta`&#34; == &#34;yes&#34; ) then
              stty pass8
         endif
     endif
@@ -89,9 +91,9 @@ first. The solutions are in my order of preference:</p>
 <li>Use shelltool instead of cmdtool.</li>
 <li>Unset <code>edit</code> in tcsh.</li>
 </ul>
-<h3 id="on-a-sparcstation-running-solaris-2x-and-openwindows-31-inside-a-cmdtool-the-short-cut-key-sequence-to-clear-log-ie-meta-e-or-diamond-e-doesnt-work-it-just-echos-e-or">On a SPARCstation running Solaris 2.x and OpenWindows 3.1, inside a cmdtool, the short-cut key sequence to clear log (i.e. Meta-e or Diamond-e) doesn&rsquo;t work: it just echos &lsquo;e&rsquo;; or</h3>
+<h3 id="on-a-sparcstation-running-solaris-2x-and-openwindows-31-inside-a-cmdtool-the-short-cut-key-sequence-to-clear-log-ie-meta-e-or-diamond-e-doesnt-work-it-just-echos-e-or">On a SPARCstation running Solaris 2.x and OpenWindows 3.1, inside a cmdtool, the short-cut key sequence to clear log (i.e. Meta-e or Diamond-e) doesn&rsquo;t work: it just echos &rsquo;e&rsquo;; or</h3>
 <p>Unset <code>edit</code> in tcsh.</p>
-<h3 id="on-a-sparcstation-running-solaris-2x-and-openwindows-31-maketool-within-sparcworks-doesnt-work-it-just-does-a-cd-to-the-working-directory-then-stops">On a SPARCstation running Solaris 2.x and OpenWindows 3.1, maketool (within SPARCworks) doesn&rsquo;t work: it just does a `cd' to the working directory then stops.</h3>
+<h3 id="on-a-sparcstation-running-solaris-2x-and-openwindows-31-maketool-within-sparcworks-doesnt-work-it-just-does-a-cd-to-the-working-directory-then-stops">On a SPARCstation running Solaris 2.x and OpenWindows 3.1, maketool (within SPARCworks) doesn&rsquo;t work: it just does a `cd&rsquo; to the working directory then stops.</h3>
 <p>Unset <code>edit</code> in tcsh. Using shelltool instead of cmdtool does not fix
 this.</p>
 <h3 id="i-rlogin-to-another-machine-and-then-no-matter-what-i-tell-stty-i-cannot-get-it-to-pass-8-bit-characters">I rlogin to another machine, and then no matter what I tell <code>stty</code> I cannot get it to pass 8 bit characters?</h3>
@@ -112,8 +114,8 @@ this.</p>
 do that, by sending it the termcap sequence smkx. Since this has to
 be done all the time, the easiest thing is to put it as an alias for
 precmd, or inside the prompt:</p>
-<pre tabindex="0"><code>    if ($term == &quot;hp&quot;) then
-        set prompt=&quot;%{`echotc smkx`%}$prompt&quot;
+<pre tabindex="0"><code>    if ($term == &#34;hp&#34;) then
+        set prompt=&#34;%{`echotc smkx`%}$prompt&#34;
     endif
 </code></pre><p>Note that by doing that you cannot use pgup and pgdn to scroll&hellip; Also
 if you are using termcap, replace <code>smkx</code> with <code>ks</code>.</p>
@@ -121,8 +123,8 @@ if you are using termcap, replace <code>smkx</code> with <code>ks</code>.</p>
 <p>Make sure that the interrupt character is set to <code>^C</code> and suspend is set
 to <code>^Z</code>; <code>stty -a</code> will show you the current stty settings; <code>stty intr ^C susp ^Z</code> will set them to <code>^C</code> and <code>^Z</code> respectively.</p>
 <h3 id="i-am-trying-to-compile-tcsh-and-i-am-getting-compile-errors-that-look-like">I am trying to compile tcsh and I am getting compile errors that look like:</h3>
-<pre tabindex="0"><code>    sh.c:???: `STR???' undeclared, outside of functions [gcc]
-    &quot;sh.c&quot;, line ???: STR??? undefined [cc]
+<pre tabindex="0"><code>    sh.c:???: `STR???&#39; undeclared, outside of functions [gcc]
+    &#34;sh.c&#34;, line ???: STR??? undefined [cc]
 </code></pre><p>You interrupted make, while it was making the automatically generated
 headers. Type <code>make clean; make</code></p>
 <h3 id="on-the-cray-sometimes-the-crlf-mapping-gets-screwed-up">On the cray, sometimes the CR/LF mapping gets screwed up.</h3>

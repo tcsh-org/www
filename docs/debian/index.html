@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Y2K | TCSH</title>
+    <title>Debian Repository | TCSH</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="stylesheet" href="/css/local.css" />
@@ -27,21 +27,23 @@
     </nav>
 
 <div class="article-meta">
-<h1><span class="title">Y2K</span></h1>
+<h1><span class="title">Debian Repository</span></h1>
 
 
 </div>
 
 <main>
-<p>The tcsh code has been tested on a Solaris 2.6 machine and a NetBSD 1.3H
-machine running before, and after the year 2000. The code has been also
-visually inspected for Y2K compliance problems. Tcsh does not use time
-functions for anything but display purposes, so its operation should not
-be affected assuming that the time related functions of the C library
-work properly.</p>
-<p><strong>Note:</strong> Since the last audit, tcsh-6.08.00 has been found to have a
-minor problem with <code>%y</code> in the prompt (it will print <code>10</code> instead of
-<code>00</code> in y2k). This has been fixed in tcsh-6.09.00.</p>
+<p>To install packages from the TCSH repository for Debian, you should
+first download a trust anchor into your system using this command:</p>
+<pre tabindex="0"><code>curl -O /usr/share/keyrings/tcsh-archive-keyring.gpg \
+    https://deb.tcsh.org/debian/tcsh-archive-keyring.gpg
+</code></pre><p>Then download the configuration for adding the repository to the sources
+used by <code>apt</code>:</p>
+<pre tabindex="0"><code>curl -O /etc/apt/sources.list.d/tcsh.list \
+    https://deb.tcsh.org/debian/tcsh.list
+</code></pre><p>Once this is done, you can run <code>apt-get update</code> for the changes to take
+effect and use <code>apt-get install tcsh-archive-keyring</code> to make sure
+updates to the keyring are received in a timely manner.</p>
 
 </main>
 
@@ -61,7 +63,7 @@ minor problem with <code>%y</code> in the prompt (it will print <code>10</code> 
 </p>
 
 
-<p>Page content last updated on 2019-05-19</p>
+<p>Page content last updated on 2022-05-13</p>
 
 
   
