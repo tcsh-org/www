@@ -35,11 +35,11 @@
 <main>
 <p>To install packages from the TCSH repository for Debian, you should
 first download a trust anchor into your system using this command:</p>
-<pre tabindex="0"><code>curl -O /usr/share/keyrings/tcsh-archive-keyring.gpg \
+<pre tabindex="0"><code>curl -o /usr/share/keyrings/tcsh-archive-keyring.gpg \
     https://deb.tcsh.org/debian/tcsh-archive-keyring.gpg
 </code></pre><p>Then download the configuration for adding the repository to the sources
 used by <code>apt</code>:</p>
-<pre tabindex="0"><code>curl -O /etc/apt/sources.list.d/tcsh.list \
+<pre tabindex="0"><code>curl -o /etc/apt/sources.list.d/tcsh.list \
     https://deb.tcsh.org/debian/tcsh.list
 </code></pre><p>Once this is done, you can run <code>apt-get update</code> for the changes to take
 effect and use <code>apt-get install tcsh-archive-keyring</code> to make sure
