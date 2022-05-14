@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.tcsh.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Debian Repository</title>
+      <title>Debian and Ubuntu</title>
       <link>http://www.tcsh.org/debian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.tcsh.org/debian/</guid>
-      <description>To install packages from the TCSH repository for Debian, you should first download a trust anchor into your system using this command:
-curl -o /usr/share/keyrings/tcsh-archive-keyring.gpg \ https://deb.tcsh.org/debian/tcsh-archive-keyring.gpg Then download the configuration for adding the repository to the sources used by apt:
-curl -o /etc/apt/sources.list.d/tcsh.list \ https://deb.tcsh.org/debian/tcsh.list Once this is done, you can run apt-get update for the changes to take effect and use apt-get install tcsh-archive-keyring to make sure updates to the keyring are received in a timely manner.</description>
+      <description>To install packages from the TCSH repository for Debian and Ubuntu, you should first download a trust anchor into your system using this command:
+curl -o /usr/share/keyrings/tcsh-archive-keyring.gpg \ https://deb.tcsh.org/debian/tcsh-archive-keyring.gpg Then create the configuration that adds the repository to the sources used by apt:
+echo &amp;#39;deb [signed-by=/usr/share/keyrings/tcsh-archive-keyring.gpg]&amp;#39; \ https://deb.tcsh.org/`lsb_release -is | tr A-Z a-z`/ \ `lsb_release -cs` main &amp;gt; /etc/apt/sources.list.d/tcsh.list Once this is done, you can update tcsh to the latest available version.</description>
     </item>
     
     <item>
