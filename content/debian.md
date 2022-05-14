@@ -11,7 +11,7 @@ command:
 
 ```
 curl -o /usr/share/keyrings/tcsh-archive-keyring.gpg \
-    https://deb.tcsh.org/debian/tcsh-archive-keyring.gpg
+    https://deb.tcsh.org/tcsh-archive-keyring.gpg
 ```
 
 Then create the configuration that adds the repository to the sources
