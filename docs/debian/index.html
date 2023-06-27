@@ -43,20 +43,26 @@ used by <code>apt</code>:</p>
 <pre tabindex="0"><code>echo &#39;deb [signed-by=/usr/share/keyrings/tcsh-archive-keyring.gpg]&#39; \
     https://deb.tcsh.org/`lsb_release -is | tr A-Z a-z`/ \
     `lsb_release -cs` main &gt; /etc/apt/sources.list.d/tcsh.list
-</code></pre><p>Once this is done, you can update <code>tcsh</code> to the latest available version.</p>
-<pre tabindex="0"><code>apt-get update &amp;&amp; apt-get install tcsh
-</code></pre><p>Finally make sure updates to the keyring are received in a timely manner.</p>
-<pre tabindex="0"><code>apt-get install tcsh-archive-keyring
+</code></pre><p>Once this is done, you can update <code>tcsh</code> to the latest available version.
+Also install <code>tcsh-archive-keyring</code> to make sure updates to the keyring
+are received in a timely manner.</p>
+<pre tabindex="0"><code>apt update &amp;&amp; apt install tcsh tcsh-archive-keyring
 </code></pre><p>Packages are available for the following operating system releases:</p>
+<!-- raw HTML omitted -->
 <ul>
+<li>Debian 13 (trixie)</li>
+<li>Debian 12 (bookworm)</li>
 <li>Debian 11 (bullseye)</li>
 <li>Debian 10 (buster)</li>
-<li>Debian 9 (stretch)</li>
+<li>Ubuntu 23.10 (mantic)</li>
+<li>Ubuntu 23.04 (lunar)</li>
+<li>Ubuntu 22.10 (kinetic)</li>
 <li>Ubuntu 22.04 (jammy)</li>
-<li>Ubuntu 21.10 (impish)</li>
 <li>Ubuntu 20.04 (focal)</li>
 <li>Ubuntu 18.04 (bionic)</li>
 </ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>Packages are available for the <code>amd64</code> and <code>arm64</code> architectures only.</p>
 
 </main>
@@ -77,7 +83,7 @@ used by <code>apt</code>:</p>
 </p>
 
 
-<p>Page content last updated on 2022-05-14</p>
+<p>Page content last updated on 2023-06-28</p>
 
 
   
