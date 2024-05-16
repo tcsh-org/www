@@ -5,37 +5,28 @@
     <link>http://www.tcsh.org/</link>
     <description>Recent content on TCSH</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www.tcsh.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="http://www.tcsh.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debian and Ubuntu</title>
       <link>http://www.tcsh.org/debian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://www.tcsh.org/debian/</guid>
-      <description>To install packages from the TCSH repository for Debian and Ubuntu, you should first download a trust anchor into your system using this command:
-curl -o /usr/share/keyrings/tcsh-archive-keyring.gpg \ https://deb.tcsh.org/tcsh-archive-keyring.gpg Then create the configuration that adds the repository to the sources used by apt:
-echo &amp;#39;deb [signed-by=/usr/share/keyrings/tcsh-archive-keyring.gpg]&amp;#39; \ https://deb.tcsh.org/`lsb_release -is | tr A-Z a-z`/ \ `lsb_release -cs` main &amp;gt; /etc/apt/sources.list.d/tcsh.list Once this is done, you can update tcsh to the latest available version.</description>
+      <description>To install packages from the TCSH repository for Debian and Ubuntu, you should first download a trust anchor into your system using this command:&#xA;curl -o /usr/share/keyrings/tcsh-archive-keyring.gpg \ https://deb.tcsh.org/tcsh-archive-keyring.gpg Then create the configuration that adds the repository to the sources used by apt:&#xA;echo &amp;#39;deb [signed-by=/usr/share/keyrings/tcsh-archive-keyring.gpg]&amp;#39; \ https://deb.tcsh.org/`lsb_release -is | tr A-Z a-z`/ \ `lsb_release -cs` main &amp;gt; /etc/apt/sources.list.d/tcsh.list Once this is done, you can update tcsh to the latest available version.</description>
     </item>
-    
     <item>
       <title>FAQ</title>
       <link>http://www.tcsh.org/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://www.tcsh.org/faq/</guid>
-      <description>For the people who do not read the manual!
-Why is the meta key broken in tcsh-5.20 and up? On some machines the tty is not set up to pass 8 bit characters by default. Tcsh 5.19 used to try to determine if pass8 should be set by looking at the terminal&amp;rsquo;s meta key. Unfortunately there is no good way of determining if the terminal can really pass 8 characters or not.</description>
+      <description>For the people who do not read the manual!&#xA;Why is the meta key broken in tcsh-5.20 and up? On some machines the tty is not set up to pass 8 bit characters by default. Tcsh 5.19 used to try to determine if pass8 should be set by looking at the terminal&amp;rsquo;s meta key. Unfortunately there is no good way of determining if the terminal can really pass 8 characters or not.</description>
     </item>
-    
     <item>
       <title>Y2K</title>
       <link>http://www.tcsh.org/y2k/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://www.tcsh.org/y2k/</guid>
-      <description>The tcsh code has been tested on a Solaris 2.6 machine and a NetBSD 1.3H machine running before, and after the year 2000. The code has been also visually inspected for Y2K compliance problems. Tcsh does not use time functions for anything but display purposes, so its operation should not be affected assuming that the time related functions of the C library work properly.
-Note: Since the last audit, tcsh-6.08.00 has been found to have a minor problem with %y in the prompt (it will print 10 instead of 00 in y2k).</description>
+      <description>The tcsh code has been tested on a Solaris 2.6 machine and a NetBSD 1.3H machine running before, and after the year 2000. The code has been also visually inspected for Y2K compliance problems. Tcsh does not use time functions for anything but display purposes, so its operation should not be affected assuming that the time related functions of the C library work properly.&#xA;Note: Since the last audit, tcsh-6.08.00 has been found to have a minor problem with %y in the prompt (it will print 10 instead of 00 in y2k).</description>
     </item>
-    
   </channel>
 </rss>

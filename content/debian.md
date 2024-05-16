@@ -34,18 +34,20 @@ apt update && apt install tcsh tcsh-archive-keyring
 
 Packages are available for the following operating system releases:
 
+<!-- Debian -->
 <!-- * Debian 14 (forky) -->
 * Debian 13 (trixie)
 * Debian 12 (bookworm)
 * Debian 11 (bullseye)
 * Debian 10 (buster)
+
+<!-- Ubuntu -->
+<!-- * Ubuntu 24.10 (oracular) -->
+* Ubuntu 24.04 (noble)
 * Ubuntu 23.10 (mantic)
-* Ubuntu 23.04 (lunar)
-* Ubuntu 22.10 (kinetic)
 * Ubuntu 22.04 (jammy)
 * Ubuntu 20.04 (focal)
 * Ubuntu 18.04 (bionic)
 <!-- * Ubuntu 16.04 (xenial) -->
-<!-- * Ubuntu 14.04 (trusty) -->
 
 Packages are available for the `amd64` and `arm64` architectures only.
