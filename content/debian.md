@@ -39,12 +39,10 @@ Packages are available for the following operating system releases:
 * Debian 13 (trixie)
 * Debian 12 (bookworm)
 * Debian 11 (bullseye)
-* Debian 10 (buster)
 
 <!-- Ubuntu -->
 <!-- * Ubuntu 24.10 (oracular) -->
 * Ubuntu 24.04 (noble)
-* Ubuntu 23.10 (mantic)
 * Ubuntu 22.04 (jammy)
 * Ubuntu 20.04 (focal)
 * Ubuntu 18.04 (bionic)
